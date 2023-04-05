@@ -1,1 +1,74 @@
-@import '~bootstrap/scss/bootstrap';
+// @import '~bootstrap/scss/bootstrap';
+@import url('https://kit.fontawesome.com/b59a747f9a.js');
+@import './partials/variables.scss';
+
+// RESET
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+
+button{
+    background-color: transparent;
+    border: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul,
+ol,
+menu {
+    list-style: none;
+}
+
+// CONTAINER
+
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+    font-size: 12px;
+}
+
+// HEADER
+
+.main-header{
+
+    .row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px 0;
+        width: 100%;
+    
+        img {
+            width: 80px;
+        }
+        
+        .col{
+            display: flex;
+            gap: 30px;
+            text-transform: uppercase;
+    
+            li{
+                &:hover {
+                    color: $blue;
+                }
+            }
+        }
+
+        .input-search{
+            border: 0;
+            border-bottom: 1px solid $blue;
+        }
+    }
+
+}

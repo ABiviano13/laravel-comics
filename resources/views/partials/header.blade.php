@@ -50,7 +50,7 @@
                 </li>
             </ul>
             <div class="input">
-                <input class="input-search" type="text">
+                <input class="input-search" type="text" placeholder="Search">
                 <button>
                     <i class="fa-solid fa-magnifying-glass"></i>
                 </button>

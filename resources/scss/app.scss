@@ -72,3 +72,79 @@ menu {
     }
 
 }
+
+// FOOTER
+
+footer {
+    color: white;
+    .section-link {
+        background-image: url(/img/footer-bg.jpg);
+        background-size: cover;
+        padding: -10px;
+        overflow: hidden;
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            img{
+                margin: -50px;
+            }
+
+            .link{
+                display: flex;
+                gap: 25px;
+
+                .title{
+                    padding-bottom: 20px;
+                    text-transform: uppercase;
+                }
+
+                li{
+                    font-size: 10px;
+                    padding-bottom: 8px;
+                    color: gray;
+                }
+
+                .shopUl{
+                    padding-top: 25px
+                }
+            }
+        }
+    }
+
+    .section-sign-up {
+        background-color: $gray-dark;
+        padding: 29px;
+
+        .row{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            text-transform: uppercase;
+
+            .col-button{
+                border: 2px solid $blue;
+                padding: 15px;
+            }
+
+            .col-icon{
+                display: flex;
+                align-items: center;
+                gap: 26px;
+
+                .text{
+                    color: $blue;
+                    font-weight: bold;
+                }
+
+                .icon-list{
+                    display: flex;
+                    gap: 18px;
+                }
+            }
+        }
+    }
+ 
+}

@@ -25,10 +25,7 @@
         @yield('contents')
     </main>
 
-    <footer>
-        {{-- footer --}}
-        @yield('footer')
-    </footer>
+    @yield('footer')
 
 </body>
 </html>
